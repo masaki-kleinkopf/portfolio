@@ -5,7 +5,6 @@ import styles from '../styles/Projects.module.scss'
 const Projects = () => {
     return (
       <div className={styles.container}>
-        <Nav />
         <section className={styles.information}>
           <h3>small talk</h3>
           <div className={styles.images}>

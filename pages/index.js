@@ -9,15 +9,13 @@ export default function Home() {
       <Head>
         <title>Masaki Kleinkopf </title>
         <meta name="title-description" content="Masaki Kleinkopf portfolio site" />
-
       </Head>
-      <Nav/>
+      <h1 className={styles.header}>Masaki Kleinkopf</h1>
       <div className={styles.information}>
-        <h1>Masaki Kleinkopf</h1>
         <h3>
           Hi, I&apos;m Masaki, I&apos;m a front-end developer.<br /><br/>
           I recently switched careers after years in music as a professional jazz trombonist, educator and producer.<br/>
-          Check out some of my recent software projects and some of the music I&apos;ve made in the past!
+          Check out some of my recent software projects!
         </h3>
       </div>
     </main>

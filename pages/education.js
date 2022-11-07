@@ -4,7 +4,6 @@ import styles from '../styles/Education.module.scss'
 const Education = () => {
   return (
     <div className={styles.container}>
-      <Nav />
       <div className={styles.information}>
         <section>
         <h2>Turing School of Software and Design</h2>
