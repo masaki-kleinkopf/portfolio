@@ -4,9 +4,10 @@ import styles from '../styles/Nav.module.scss'
 const Nav = () => {
   return (
     <nav className={styles.container}>
+      <h1>Masaki Kleinkopf</h1>
       <ul>
         <li>
-          <Link href="/about">About</Link>
+          <Link href="/">Home</Link>
         </li>
         <li>
           <Link href="/projects">Projects</Link>
