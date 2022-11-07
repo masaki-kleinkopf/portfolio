@@ -5,7 +5,19 @@ import styles from '../styles/Projects.module.scss'
 const Projects = () => {
     return (
       <div className={styles.container}>
-        <section className={styles.information}>
+        <section>
+          <h3>Waste Not, Want Not</h3>
+          <div className={styles.images}>
+          </div>
+          <p>
+             Group (7 person team) Project<br/><br/>
+            ● Tech Stack: React, GraphQL, CSS, Cypress, Circle CI<br/><br/>
+            ● Built full-stack application in collaboration with back-end team<br/><br/>
+            ● Utilized GraphQL for streamlined network requests<br/><br/>
+            ● Set up Circle CI to ensure stability of app throughout build<br/><br/>
+          </p>
+        </section>
+        <section>
           <h3>small talk</h3>
           <div className={styles.images}>
             <Image src="/smallTalk2.gif" alt="small talk screenshot 1" height="300" width="500" />
@@ -20,7 +32,18 @@ const Projects = () => {
             ● Tech Stack: Vue 3 (Composition API), Pinia, CSS. Tested with Cypress.<br/><br/>
           </p>
         </section>
-
+        <section>
+          <h3>Sombor Shuffle </h3>
+          <div className={styles.images}>
+          </div>
+          <p>
+             Solo Project<br/><br/>
+            ● Tech Stack: React, React Router, CSS, Cypress <br/><br/>
+            ● Built detailed user personas, and leveraged Figma and CSS to create mobile-friendly UI <br/><br/>
+            ● Implemented React Hooks while developing sports stats app that allows user to generate and save data <br/><br/>
+            ● Tested external API endpoints with Postman to streamline development <br/><br/>
+          </p>
+        </section>
       </div>
       )
   }
