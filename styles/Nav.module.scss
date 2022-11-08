@@ -12,6 +12,13 @@
             align-self: center;
         }
     }
+    li:hover {
+        color: #FFC300;
+    }
+
+    .active {
+        color: #FFC300;
+    }
     ul {
         align-self: center;
         display: flex;

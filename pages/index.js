@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
       <div className={styles.information}>
         <h3>
-          Hi, I&apos;m Masaki, I&apos;m a front-end developer.<br /><br/>
+          Hi, I&apos;m Masaki, I&apos;m a frontend developer.<br /><br/>
           I recently completed a rigorous 7 month, 60 hour per week program studying frontend development at the Turing School of Software and Design.
           I enjoy the constant learning opportunities in programming, and am passionate about increasing diversity and social-impact in tech.
           I previously had a career in music, in which I performed on trombone professionally and maintained a brass teaching studio. 
