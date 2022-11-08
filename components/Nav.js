@@ -4,7 +4,7 @@ import styles from '../styles/Nav.module.scss'
 const Nav = () => {
   return (
     <nav className={styles.container}>
-      <h1>Masaki Kleinkopf</h1>
+      <h1>Masaki Kleinkopf |<span>| Frontend Developer</span></h1>
       <nav>
         <ul>
         <li>

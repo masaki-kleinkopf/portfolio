@@ -1,6 +1,8 @@
+import styles from "../styles/Contact.module.scss"
+
 const Contact = () => {
   return (
-    <section>
+    <section className={styles.container}>
       <p>
         Contact me: masaki.kleinkopf@gmail.com
       </p>
