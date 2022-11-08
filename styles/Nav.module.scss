@@ -1,14 +1,19 @@
 .container {
     display:flex;
+    flex-direction: column;
     justify-content: space-around;
     height:100%;
-    margin-top:1em;
+    margin-bottom: 5em;
+    h1 {
+        align-self: center;
+        color: #FF33D8;
+    }
     ul {
+        align-self: center;
         display: flex;
         justify-content: space-around;
         list-style-type: none;
         margin: 0;
         padding: 0;
-        width:80em;
     }
 }

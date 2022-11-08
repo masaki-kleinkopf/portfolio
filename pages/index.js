@@ -10,7 +10,6 @@ export default function Home() {
         <title>Masaki Kleinkopf </title>
         <meta name="title-description" content="Masaki Kleinkopf portfolio site" />
       </Head>
-      <h1 className={styles.header}>Masaki Kleinkopf</h1>
       <div className={styles.information}>
         <h3>
           Hi, I&apos;m Masaki, I&apos;m a front-end developer.<br /><br/>

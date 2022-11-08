@@ -20,21 +20,32 @@ const Projects = () => {
         <section>
           <h3>small talk</h3>
           <div className={styles.images}>
-            <Image src="/smallTalk2.gif" alt="small talk screenshot 1" height="300" width="500" />
-            <Image src="/smallTalk1.gif" alt="small talk screenshot 1" height="300" width="500" />
+            <div className={styles.imageContainer}>
+              <Image src="/smallTalk2.gif" alt="small talk screenshot 1" height="300" width="500" />
+            </div>
+            <div className={styles.imageContainer}>
+              <Image src="/smallTalk1.gif" alt="small talk screenshot 1" height="300" width="500" />
+            </div>
+      
+            
           </div>
           <p>
             Small Talk, Group (3 person team) Project<br/><br/>
-            ● Learned a new technology (Vue.js) and built an app within a week; small Talk gives users random   
-            facts, jokes and drinks to help an awkward party goer.<br/><br/>
-            ● Built with global state management (Pinia) to streamline development and easily share state data<br/><br/>
+            ● Tech Stack: Vue 3 (Composition API), Pinia, CSS, Cypress<br/><br/>
+            ● Developed interactive social anxiety app that retrieves data from 4 public APIs<br/><br/>
+            ● Streamlined development through global state management tool Pinia to share state data <br/><br/>
             ● Utilized local storage to persist saves on users reload<br/><br/>
-            ● Tech Stack: Vue 3 (Composition API), Pinia, CSS. Tested with Cypress.<br/><br/>
           </p>
         </section>
         <section>
           <h3>Sombor Shuffle </h3>
           <div className={styles.images}>
+            <div className={styles.imageContainer}>
+              <Image src="/sombor-shuffle.png" alt="sombor shuffle pic" height="300" width="500" />
+            </div>
+            <div className={styles.imageContainer}>
+              <Image src="/sombor-shuffle.gif" alt="sombor shuffle gif" height="300" width="500" />
+            </div>
           </div>
           <p>
              Solo Project<br/><br/>
