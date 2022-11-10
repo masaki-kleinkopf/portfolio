@@ -10,4 +10,17 @@
   align-items: center; 
   width:60em;
   text-align: left;
+  a {
+    color: #FFC300;
+  }
+  a:hover {
+    color: #FFC300;
+    text-decoration: underline;
+  }
 }
+
+.imageContainer {
+  overflow: hidden;
+  border-radius: 5%;
+}
+

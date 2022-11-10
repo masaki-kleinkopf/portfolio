@@ -9,7 +9,7 @@ const Education = () => {
         <h2>Turing School of Software and Design</h2>
         <h3>Mar -  Sep 2022</h3>
         <p>
-          Accredited  Frontend Software Engineering Certificate
+          Accredited  Frontend Software Engineering Certificate <br/>
           Activities: TAPIDA (Turing Asian Pacific-Islander Desi Americans) student leader
         </p> 	
       </section>
